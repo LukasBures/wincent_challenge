@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "wincent-challenge"
+version = "0.1.0"
+description = ""
+authors = ["Lukas Bures <burylukas@seznam.cz>"]
+readme = "README.md"
+packages = [{include = "wincent_challenge"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+scipy = "^1.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
